@@ -11,7 +11,7 @@ import random
 def RNGTest(generatedNumbers, interval):
     """Testing Random Number Generator
 
-    Usage: randomTester(generatedNumbers, interval)
+    Usage: RNGTester(generatedNumbers, interval)
     generatedNumbers(int) = How many numbers generate?
     interval(int) = Interval of Naumers
     Example: randomTester(437,10)"""
