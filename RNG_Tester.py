@@ -8,7 +8,7 @@ import random
 
 
 
-def RNGTester(generatedNumbers, interval):
+def RNGTest(generatedNumbers, interval):
     """Testing Random Number Generator
 
     Usage: randomTester(generatedNumbers, interval)
@@ -29,7 +29,7 @@ def RNGTester(generatedNumbers, interval):
         dictCases[myRandom] += 1
 
     #print values
-    print "\nValues of RNG teszt:"
+    print "\nValues of RNG test:"
     print "\nGenerated "+str(generatedNumbers)+" number."
     print "Interval: 0 - " + str(interval-1) + "\n"
     print "Values:"
@@ -37,7 +37,3 @@ def RNGTester(generatedNumbers, interval):
         percentOfResults =float(dictCases[k])/float(generatedNumbers)*100
         print str(k) + " : " +str("%0.0f" % (dictCases[k],))+"x -> "+str(percentOfResults) + "%"
 
-"""
-Example:
-RNGTester(100,10)
-"""
